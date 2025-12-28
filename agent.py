@@ -70,3 +70,5 @@ print("Listener started. Press ESC to exit.\n")
 # שימו לב: מומלץ להוריד את suppress=True לבדיקות, כדי לראות את הקלט
 with keyboard.Listener(on_release=on_release) as listener:
     listener.join()
+
+     # הוספת תווים רגילים
